@@ -1,0 +1,203 @@
+.texto_infos{
+    font-size: 15px;
+    color: white;
+    
+    
+}
+
+.container {
+    display: grid;
+    
+}
+.imagem_Mateus {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #333;
+    padding: 10px;
+
+}
+
+.principal {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+
+}
+.principal h3{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+
+.principal h5{
+    color: rgb(40, 73, 73);
+}
+
+.portfolio {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+.portfolio table{
+    
+    width: auto;
+}
+
+.portfolio table td{
+    padding: 20px;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(199, 211, 211);
+    text-align: left;
+    
+}
+
+.portfolio table a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.portfolio table a:hover{
+    text-decoration: underline;
+}
+
+.portfolio table img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.contact_section{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-right: 500px;
+    padding-left: 50px;
+    text-align: left;
+}
+.contact_section h1{
+    text-align: center;
+}
+
+.experiencies_table{
+    padding-left: 50px;
+    width: auto;
+    border-collapse: separate;
+    
+    
+    
+}
+.experiencies_table td{
+    text-align: center;
+    vertical-align: middle;
+    
+    border-radius: 25px;
+    
+    height: 50px;
+    padding: 20px;
+    background-color: rgb(199, 211, 211);
+    
+}
+.experiencies_table td h4{
+    color: rgb(55, 85, 90);
+    padding: 0;
+    margin: 0;
+    
+}
+.experiencies_table td h5{
+    color: rgb(55, 85, 90);
+    padding:-10px;
+    margin: -10px;
+    
+    
+}
+.experiencies_table td p{
+    font-weight:bold;
+    color: rgb(39, 58, 61);
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 224, 224) ;
+    
+}
+header {
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.header-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 0px;
+}
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+footer{
+    
+    clear: both;
+    font-size: 15px;
+    padding: 10px; 
+    background-color:black; 
+    color: white; 
+    height: 50px;
+    vertical-align: middle;
+}
+
+footer img {
+    width: 20px;
+    margin: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration:solid;
+}
+
+
+
+
