@@ -25,6 +25,7 @@
     text-align: justify;
 
 }
+
 .principal h3{
     background-color: #333;
     color: white;
@@ -198,6 +199,24 @@ footer a:hover{
     text-decoration:solid;
 }
 
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        grid-column-start: 1;
+        grid-column-end: 1;
 
+    }
+    
+    .imagem_leo {
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+    .principal {
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+}
 
 
