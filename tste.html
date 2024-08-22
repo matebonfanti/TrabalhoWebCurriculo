@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiências</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ajustes básicos para garantir responsividade e evitar estouro da página */
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        aside.imagem_Mateus {
+            flex: 1 1 300px;
+            margin-right: 20px;
+        }
+
+        aside.imagem_Mateus img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .texto_infos {
+            margin-top: 20px;
+        }
+
+        .principal {
+            flex: 3;
+        }
+
+        h1, h3, h5 {
+            margin: 20px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .experiencies_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .experiencies_table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer table {
+            margin: 0 auto;
+        }
+
+        footer img {
+            width: 20px;
+            vertical-align: middle;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .wrapper {
+                flex-direction: column;
+            }
+
+            aside.imagem_Mateus {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .experiencies_table td {
+                display: block;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho padrão de todas as páginas -->
+    <header>
+        <img src="image/capa.jpg" alt="Imagem do Cabeçalho" class="header-image">
+        <nav>
+            <ul>
+                <li><a href="/">Sobre Mim</a></li>
+                <li><a href="/experience">Formação e Experiência</a></li>
+                <li><a href="/portfolio">Portfólio</a></li>
+                <li><a href="/contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--------------------------------------------------------------------------------------------->
+    <!-- Conteudo -->
+    <div class="container wrapper">
+        <aside class="imagem_Mateus">
+            <img src="image/mateus.png" alt="Imagem Mateus">
+            <div class="texto_infos">
+                <p><strong>Ocupação: </strong> Estudante</p>
+                <p><strong>Data do Nascimento: </strong>10/08/1995 29 anos</p>
+                <p><strong>Estado Civil: </strong> Solteiro</p>
+                <p><strong>Cidade: </strong> Florianópolis</p>
+                <p><strong>Endereço: </strong> Rod. Admar Gonzaga 2025, ap 308</p>
+            </div>
+        </aside>
+
+        <section class="principal">
+            <h1>Formação e Experiência</h1>
+
+            <h3>Cursos</h3>
+            <h5>Ensino Superior</h5>
+            <ul>
+                <li>Análise e Desenvolvimento de Sistemas (Cursando) - Uninter - Florianópolis - SC</li>
+                <li>Ciência da Computação (Trancado) - UPF - Passo Fundo - RS</li>
+            </ul>
+
+            <h5>Cursos Técnicos</h5>
+            <ul>
+                <li>Técnico em Suporte e Manutenção em Microcomputadores e Redes Locais (SENAI)</li>
+                <li>Técnico em Assistente Administrativo (SENAI)</li>
+            </ul>
+
+            <h5>Cursos Complementares</h5>
+            <ul>
+                <li>Design Gráfico (Datacontrol)</li>
+                <li>Design Gráfico 3D (Datacontrol)</li>
+                <li>Web Design (Datacontrol)</li>
+                <li>Curso de JAVA, programação orientada a objetos + projetos. (Udemy)</li>
+            </ul>
+
+            <h5>Idiomas</h5>
+            <ul>
+                <li>Inglês Avançado - Rockfeller</li>
+            </ul>
+
+            <h3>Experiência Profissional</h3>
+
+            <table class="experiencies_table">
+                <tr>
+                    <td>
+                        <h4>Jornal Gazeta Regional</h4>
+                        <h5>05/2013 - 12/2013</h5>
+                        <p>Diagramador</p>
+                    </td>
+                    <td>
+                        <h4>Exército Brasileiro</h4>
+                        <h5>03/2014 - 01/2015</h5>
+                        <p>Cabo</p>
+                    </td>
+                    <td>
+                        <h4>Logo Artes<br>Impressões Serigráficas</h4>
+                        <h5>03/2015 - 09/2015</h5>
+                        <p>Técnico e adesivador</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Net11 Tecnologia Ltda.</h4>
+                        <h5>09/2015 – 08/2016</h5>
+                        <p>Instalador/Reparador <br> Técnico em redes</p>
+                    </td>
+                    <td>
+                        <h4>Mhnet Telecom</h4>
+                        <h5>08/2016 – 03/2018</h5>
+                        <p>Instalador /Técnico de Redes <br>Supervisor de PCP <br> Suporte em geral</p>
+                    </td>
+                    <td>
+                        <h4>Razão Info</h4>
+                        <h5>03/2018 - 03/2024</h5>
+                        <p>Técnico em Infraestrutura, <br>Técnico de redes e Instalação</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <table>
+                <tr>
+                    <td><img src="image/whats.png" alt="WhatsApp"></td>
+                    <td><a href="https://wa.me/+5554999199510/?text=ola">(54) 99919-9510</a></td>
+                    <td><img src="image/gmail.png" alt="Gmail"></td>
+                    <td><a href="mailto:exemplo@dominio.com">matebonfanti@gmail.com</a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+
+</html>

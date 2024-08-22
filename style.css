@@ -1,3 +1,10 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 .texto_infos{
     font-size: 15px;
     color: white;
@@ -87,8 +94,8 @@
 }
 
 .experiencies_table{
-    padding-left: 50px;
-    width: auto;
+    padding-left: 0px;
+    width: 100%;
     border-collapse: separate;
     
     
@@ -200,10 +207,11 @@ footer a:hover{
     text-decoration:solid;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .wrapper {
         grid-column-start: 1;
         grid-column-end: 1;
+        flex-direction: column;
 
     }
     
@@ -212,11 +220,30 @@ footer a:hover{
         grid-column-end: 1;
 
     }
+    .experiencies_table {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .experiencies_table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
 
     .principal {
         grid-column-start: 1;
         grid-column-end: 1;
 
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    aside.imagem_Mateus {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
 
