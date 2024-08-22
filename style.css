@@ -78,7 +78,7 @@
 .contact_section{
     grid-column-start: 4;
     grid-column-end: 12;
-    padding-right: 500px;
+    padding-right: 50px;
     padding-left: 50px;
     text-align: left;
 }
